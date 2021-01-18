@@ -57,10 +57,5 @@ def main():
             move_click(*BACK_POS, True)
             logging.info("点击返回")
 
-        
-
-
-
-
 if __name__ == "__main__":
     main()
