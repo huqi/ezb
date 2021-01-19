@@ -46,7 +46,7 @@ def main():
     
     while True:
         for i in range(6):
-            x, y = FIRST_POS[0], FIRST_POS[1]
+            x, y = FIRST_POS
             y = y + i * GAP
             move_click(x, y, True)
             logging.info("正在播放第%d集" % int(8 - i))            
